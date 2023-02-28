@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section {
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+}
+.cards {
+    padding: 25px 32px;
+    border-radius: 10px;
+}
+.cards div {
+    display: flex;
+}
+.cards div img {
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 16px;
+    margin-bottom: 18px;
+}
+.cards div ul li:first-child, .cards h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+.cards div ul li:last-child {
+    color: hsla(0, 0%, 100%, 50%);
+}
+.cards h2 {
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-size: 20px;
+}
+.cards p {
+    line-height: 18px;
+    color: hsla(0, 0%, 100%, 70%);
+}
+.white div ul li:first-child, .white h2 {
+    color: hsl(217, 19%, 35%);
+}
+.white div ul li:last-child {
+    color: hsla(217, 19%, 35%, 50%);
+}
+.white p {
+    color: hsla(217, 19%, 35%, 70%);
+}
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 348px 0px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / 1;
+}
+.daniel div img, .patrick div img {
+    border: 2px solid hsl(263, 57%, 66%);
+}
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+}
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: 2 / span 2;
+    grid-row: 2 / 2;
+}
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 4 / 4;
+    grid-row: 1 / span 2;
+}
