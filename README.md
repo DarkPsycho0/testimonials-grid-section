@@ -10,7 +10,23 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-<h2 align="center">
-    🚧 🏗️ under construction🏗️ 🚧
-</h2>
-<img src="./src/images/Page_Under_Construction.png">
+### Screenshot
+
+#### Desktop Screenshot 🖥️
+
+<img src="./src/images/desktop-screenshot.png">
+
+#### Mobile Screenshot 📱
+
+<img src="./src/images/mobile-screenshot.png">
+
+### link 🔗
+
+- Live Site URL: https://lkiryu.github.io/testimonials-grid-section-main/
+
+### Built with 🛠️
+- HTML5
+- CSS
+---
+### Author 👨‍💻
+ Made by Matheus Antonio
