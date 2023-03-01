@@ -60,7 +60,7 @@ body {
     background-color: hsl(263, 55%, 52%);
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: 348px 0px;
+    background-position: 80% 0%;
     grid-column: 1 / span 2;
     grid-row: 1 / 1;
 }
