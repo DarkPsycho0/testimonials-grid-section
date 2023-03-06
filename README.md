@@ -22,7 +22,7 @@ Users should be able to:
 
 ### link 🔗
 
-- Live Site URL: https://lkiryu.github.io/testimonials-grid-section-main/
+- Live Site URL: https://lkiryu.github.io/testimonials-grid-section/
 
 ### Built with 🛠️
 - HTML5
